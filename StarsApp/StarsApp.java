@@ -102,7 +102,7 @@ public class ProjectCh5App {
                     throw new IllegalArgumentException();
             }
         } catch (IllegalArgumentException e) {
-            e.printStackTrace(); // Να γίνει logging σε αρχείο και να μην εκτυπώνει το exception στην οθόνη
+            e.printStackTrace();
             throw e;
         }
     }
